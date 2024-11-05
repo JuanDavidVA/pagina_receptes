@@ -1,0 +1,54 @@
+.nav1 {
+    width: 100%;
+    height:45px;
+    display: flex;
+    background-color: khaki;
+    align-items: center;
+}
+.pagina1 {
+    height:20px;
+    margin: 30px;
+}
+.logo {
+    height:10px;
+    margin-right: 40px;
+}
+.amplitud {
+    height:10px;
+    margin-left: 30%;
+}
+.logoUser{
+    width: 10px;
+    height:20px;
+    box-sizing: 20%;
+    
+}
+
+
+
+
+.fondo{
+    width: 100%;
+    height: 600px;
+    background-image: url(img/fondo.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+
+.nav2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+.pagina {
+    margin: 30px;
+}
+
+
