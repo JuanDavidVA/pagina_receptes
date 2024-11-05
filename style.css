@@ -6,13 +6,17 @@ body {
 
 
 
+
 /*Nav Inicial*/
+
+
+
 
 .nav1 {
     position: relative;
     height: 70px;
     display: flex;
-    background-color: khaki;
+    background-color: rgba(243, 141, 118, 0.911);
     align-items: center;
 }
 .pagina1 {
@@ -34,9 +38,11 @@ body {
     margin-left: 90%;
     margin-right: 5%;
 }
+
+
+
+
 /*Header pag principal*/
-
-
 
 
 
@@ -83,7 +89,7 @@ body {
     border-radius: 90px;
     text-align: center;
     border: 4px solid rgba(243, 141, 118, 0.911);
-
+    box-shadow:5px 5px 12px #bd8471cc;
 }
 
 
@@ -110,20 +116,99 @@ body {
     margin: 30px;
 }
 
+
+
+
 /* Recetas recientes section*/
 
+
+
+
+.tituloRecetas{
+    font-size: 180%;
+    padding-left: 5%;
+    margin-top: 30px;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+} 
 .last_recipes{
     display: flex;
     margin: 3%;
+    margin-top: 0px;
 }
 .receta1{
     padding: 5px;
-    margin: 30px;
+    margin: 20px;
     background-color: rgb(255, 255, 255);
 
 }
 .receta1 img {
     width: 100%;
     height: 50%;
+    border-radius: 20px;
+    box-shadow:10px 10px 23px #bd8471cc;
+}
+.receta1 h5 {
+    font-size: 30px;
+    margin-bottom: 0%;
+}
+.receta1 h6 {
+    margin-top: 1px;
+    margin-bottom: 8px;
+}  
+.receta1  p {
+    text-align: justify;
+}
+
+.backRecipe {
+    display: flex;
+    margin: 3%;
+    border-radius: 20px;
+    background-color: rgba(243, 141, 118, 0.911) ;
+    text-align: center;
+    border: 4px solid rgba(0, 0, 0, 0.911);
+    box-shadow:5px 5px 12px #bd8471cc;
+
+}
+.item1{
+    display: flex;
+    padding: 5px;
+    margin: 40px;
+    width: 170%;
+    height: 30px;
+    
+}
+.item2{
+    width: 170%;
+    height: 30px;
+    margin: 40px;
+    padding-left: 20px ;
+    margin-left: 20px;
+    
+}
+.boton2 {
+    width: 90%;
+    height: 30px;
+    padding: 8px;
+    padding-bottom: 15px;
+    background-color: whitesmoke;
+    border-radius: 90px;
+    text-align:left;
+    box-shadow:5px 5px 12px #bd8471cc;
+}
+.boton3 {
+    width: 30%;
+    height: 20px;
+    margin-left: 65%;
+    margin-top: 0px;
+    background-color: whitesmoke;
+    border-radius: 90px;
+    text-align: center;
+    border: 4px solid rgba(243, 141, 118, 0.911);
+    box-shadow:5px 5px 12px #bd8471cc;
+}
+
+.item1 {
+        text-align: justify;
 }
 
